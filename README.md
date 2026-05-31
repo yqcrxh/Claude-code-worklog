@@ -2,7 +2,7 @@
 
 让每一次任务"有迹可循"：把**做了什么、用了什么方法、踩了什么坑、为什么这么决策**，留成一份不随对话上下文消失的记录。
 
-**"半自动"** = 建文件全自动（SessionStart hook），写内容由 AI 在关键节点手动完成。适配 [Claude Code](https://claude.com/claude-code)，理念部分对任何 AI 助手通用。
+**"半自动"** = 建文件全自动（SessionStart hook），写内容由 AI 在关键节点完成(只需手动提出写日志要求)。适配 [Claude Code](https://claude.com/claude-code)，理念部分对任何 AI 助手通用。
 
 ---
 
