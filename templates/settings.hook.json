@@ -1,0 +1,18 @@
+{
+  "_comment": "Merge this SessionStart hook into your ~/.claude/settings.json. Do NOT replace the whole file - if you already have a 'hooks' object, add SessionStart into it. Windows path shown; for macOS/Linux use the bash command in the comment below.",
+  "_command_windows": "powershell -ExecutionPolicy Bypass -File \"C:\\Users\\<YOU>\\.claude\\create-worklog.ps1\"",
+  "_command_unix": "bash ~/.claude/create-worklog.sh",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -File \"C:\\Users\\<YOU>\\.claude\\create-worklog.ps1\"",
+            "shell": "powershell"
+          }
+        ]
+      }
+    ]
+  }
+}
